@@ -1,0 +1,63 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - FDFullscreenPopGesture (1.1)
+  - IQKeyboardManager (4.0.13)
+  - MJRefresh (3.1.15.7)
+  - SDCycleScrollView (1.75):
+    - SDWebImage (>= 4.0.0)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - SVProgressHUD (2.1.2)
+  - vendors (1.0.0):
+    - AFNetworking (~> 3.0)
+    - FDFullscreenPopGesture (~> 1.1)
+    - IQKeyboardManager (~> 4.0.10)
+    - MJRefresh
+    - SDCycleScrollView (~> 1.66)
+    - SVProgressHUD (~> 2.1.2)
+
+DEPENDENCIES:
+  - vendors (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - FDFullscreenPopGesture
+    - IQKeyboardManager
+    - MJRefresh
+    - SDCycleScrollView
+    - SDWebImage
+    - SVProgressHUD
+
+EXTERNAL SOURCES:
+  vendors:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  IQKeyboardManager: 8eab4d8111418414619d1df8e4779ce5d0f8d7e2
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  SDCycleScrollView: 884b88f0266dd4708a0e1934975c69cb971707b1
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  vendors: 94dd9d803f2c6d66963ddd23837ef90c93d07821
+
+PODFILE CHECKSUM: 29c168ab3bcbea74a90d6821a68eb52d45963f36
+
+COCOAPODS: 1.5.3
